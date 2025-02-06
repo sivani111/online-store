@@ -15,16 +15,54 @@
         }
 
     </script>
+    <style>
+        .container{
+            padding-top: 80px;
+            text-align:center;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .box{
+            border: 2px solid rgb(74, 1, 1);
+            width: 350px;
+            height: 500px;
+            padding: 17px;
+            border-radius: 10px;
+        }
+        .h2{
+            margin-bottom: 60px;
+        }
+        input{
+            /* background-color: rgb(251, 246, 239); */
+            background-color: rgb(251, 244, 235);
+            padding: 20px;
+            width: 85%;
+            border-radius: 7px;
+            border-color: rgb(74, 1, 1); 
+        }
+        button{
+            margin-top: 20px;
+            font-size: large;
+            border-radius: 6px;
+            padding:10px;
+            width: 50% ;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <div class="box">
     <h1 class="h2">New User Signup form</h1>
     <p><input type="text" id="name" placeholder="Enter your name"></p>
     <p><input type="text" id="email" placeholder="Enter Email or phn number"></p>
     <p><input type="password"  id="pass" placeholder="Enter password"></p>
     <p><input type="date" id="dob" placeholder="Enter your dob"></p>
     <!-- <button onclick="chkusr()" style="background-color: blue;color: aliceblue;">Log in</button> -->
-    <button onclick="f()" style="background-color: blue;color: aliceblue;">Register</button>
+    <button onclick="f()" style="background-color: green;color: aliceblue;">Register</button>
     <p><div id="d"></div></p>
+</div>
+</div>
 </body>
 </html>
 
